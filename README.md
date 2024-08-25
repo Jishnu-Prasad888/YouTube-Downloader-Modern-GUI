@@ -3,7 +3,7 @@
 ## Overview
 This application provides a graphical user interface (GUI) for downloading YouTube videos. Built using Python's tkinter library and customtkinter, it allows users to enter a YouTube video URL, select a file format, choose a download directory, and download the video.
 
-##Features
+## Features
 Insert YouTube URL: Enter the URL of the video you wish to download.
 Select File Format: Choose from available file formats (.mp4, .mkv, .mov).
 Choose Download Directory: Select the folder where the video will be saved.
@@ -11,7 +11,7 @@ Download Video: Download the video in the selected format.
 Quit Application: Close the application when done.
 
 
-##Prerequisites
+## Prerequisites
 Make sure you have Python installed on your system. You will also need to install the required Python libraries. Use the following commands to install the necessary packages:
 
 ```bash
@@ -58,5 +58,7 @@ selected_value: Stores the selected file format.
 
 ## Libraries Used
 tkinter: Standard Python library for GUI applications.
+<br>
 customtkinter: A custom tkinter library for modern-looking interfaces.
+<br>
 pytubefix: A library for downloading YouTube videos.
